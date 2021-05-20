@@ -16,6 +16,14 @@ public class pruebas {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        operacion ob1 = new operacion("operacion","monto","s","a");
+        operacion ob2 = new operacion("retiro","monto","s","a");
+        operacion ob3 = new operacion("operacion","t","s","a");
+        
+        logica banco = new logica();
+        
+        banco.addRow(ob1);
     }
     
 }
